@@ -1,1 +1,1 @@
-The CAMmill homepage.
+The [CAMmill homepage](https://cammill.github.io/).
