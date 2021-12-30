@@ -1,0 +1,85 @@
+<HTML>
+<HEAD>
+<META charset="utf-8"/>
+<STYLE>
+	body {
+		background-color: #000000;
+		background-image: url('../pics/bg.png');
+		color: #FFFFFF;
+	}
+</STYLE>
+</HEAD>
+<BODY>
+<IMG src="../pics/logo.png">
+<HR>
+<A href="../pics/sc_milling.png"><IMG width="600px" src="../pics/sc_milling.png" align="right"></A>
+<H2>Milling</H2>
+
+Milling parameters
+
+<BR>
+<BR>
+<BR>
+<LI>MaxFeedRate:<BR>
+<BLOCKQUOTE>
+Calculated maximum feed in mm / minute (ReadOnly)
+</BLOCKQUOTE>
+<LI>FeedRate:<BR>
+<BLOCKQUOTE>
+Feed rate in mm / minute
+</BLOCKQUOTE>
+<LI>PlungeRate:<BR>
+<BLOCKQUOTE>
+Vertical feed rate in mm / minute
+</BLOCKQUOTE>
+<LI>Depth:<BR>
+<BLOCKQUOTE>
+Milling depth in mm (negative)
+</BLOCKQUOTE>
+<LI>:<BR>
+<BLOCKQUOTE>
+Milling depth per pass in mm (negative)
+</BLOCKQUOTE>
+<LI>Safe-Move:<BR>
+<BLOCKQUOTE>
+Distance to the material for fast movements in mm (positive)
+</BLOCKQUOTE>
+<LI>Overcut:<BR>
+<BLOCKQUOTE>
+For milling out inner edges that cannot be reached due to the tool radius (can be overwritten per object)
+</BLOCKQUOTE>
+<LI>Lasermode:<BR>
+<BLOCKQUOTE>
+The 'tool' is moved to Z0.0 and switched on and off for each milling path (can be overwritten per object)
+</BLOCKQUOTE>
+<LI>Climb:<BR>
+<BLOCKQUOTE>
+Down-cut milling, the workpiece is moved in the direction of rotation of the milling cutter (can be overwritten per object)
+</BLOCKQUOTE>
+<LI>NoOffsets:<BR>
+<BLOCKQUOTE>
+All offsets are deactivated, e.g. for engraving contours (can be overwritten per object)
+</BLOCKQUOTE>
+<LI>Mill Text:<BR>
+<BLOCKQUOTE>
+MTEXT elements from DXF files are treated as milling paths
+</BLOCKQUOTE>
+<LI>NC-Debug:<BR>
+<BLOCKQUOTE>
+Only for checking the milling data output, all contours are also transferred without offsets
+</BLOCKQUOTE>
+<LI>Output-File:<BR>
+<BLOCKQUOTE>
+Output file path
+</BLOCKQUOTE>
+<LI>Post-Command:<BR>
+<BLOCKQUOTE>
+A command that is executed after the output has been saved, e.g. to copy the file to the CNC machine (copy2cnc.sh% s)
+</BLOCKQUOTE>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</BODY>
+</HTML>
